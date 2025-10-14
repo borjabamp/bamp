@@ -149,7 +149,7 @@ export default function Page() {
             method="post"
           >
             <input type="hidden" name="_subject" value="BAMP Digital Partners · Nueva consulta" />
-            <input type="hidden" name="_next" value="https://bamp.es?enviado=1" />
+            <input type="hidden" name="_next" value="https://bamp.es/gracias" />
             <input type="hidden" name="_captcha" value="false" />
             <input type="text" name="_honey" className="hidden" tabIndex={-1} autoComplete="off" />
             <label className="flex flex-col gap-2">
