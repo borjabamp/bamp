@@ -26,3 +26,9 @@ background:radial-gradient(600px 300px at 20% 20%, var(--primary), transparent 6
   opacity:.15;filter:blur(1px);
 }
 .hero-content{position:relative;z-index:1}
+/* Fondos sutiles con colores de marca */
+.tint-primary{background:linear-gradient(180deg,rgba(37,99,235,.06),rgba(37,99,235,.03) 60%,transparent)}
+.tint-accent{background:linear-gradient(180deg,rgba(139,92,246,.06),rgba(139,92,246,.03) 60%,transparent)}
+.tint-ink{background:linear-gradient(180deg,rgba(17,24,39,.04),rgba(17,24,39,.02) 60%,transparent)}
+.sep-top{border-top:1px solid #e5e7eb}
+.sep-bottom{border-bottom:1px solid #e5e7eb}

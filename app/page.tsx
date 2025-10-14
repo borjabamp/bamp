@@ -23,7 +23,7 @@ export default function Page() {
       </header>
 
       {/* HERO */}
-      <section id="top" className="relative hero-bg">
+      <section id="top" className="py-16 tint-accent sep-top">
         <div className="container mx-auto px-4 py-28 md:py-40 hero-content min-h-screen flex items-center">
           <div className="max-w-3xl">
             <div className="inline-flex items-center gap-2 mb-4">
@@ -45,7 +45,7 @@ export default function Page() {
       </section>
 
       {/* QUÉ HACEMOS */}
-      <section id="servicios" className="py-16">
+      <section id="servicios" className="py-16 tint-primary sep-top">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl md:text-4xl font-bold">Qué hacemos</h2>
           <p className="mt-2 text-slate-600 max-w-2xl">De la oportunidad al impacto medido.</p>
@@ -57,7 +57,7 @@ export default function Page() {
 
 
       {/* METODO */}
-      <section id="metodo" className="py-16 bg-white">
+      <section id="metodo" className="py-16 tint-ink sep-top">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl md:text-4xl font-bold">Cómo trabajamos</h2>
           <p className="mt-2 text-slate-600 max-w-2xl">Acompañamiento de partner, no proveedor puntual.</p>
@@ -82,7 +82,7 @@ export default function Page() {
       </section>
 
       {/* CASOS */}
-      <section id="casos" className="py-16">
+      <section id="casos" className="py-16 tint-primary sep-top">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl md:text-4xl font-bold">Resultados</h2>
           <div className="grid md:grid-cols-3 gap-6 mt-8">
@@ -103,7 +103,7 @@ export default function Page() {
       </section>
 
       {/* CTA */}
-      <section className="py-16">
+      <section className="py-16 tint-accent sep-top">
         <div className="container mx-auto px-4">
           <div className="rounded-2xl p-8 md:p-10 border border-slate-200 bg-gradient-to-r from-white to-[#fafafe]">
             <div className="flex flex-col md:flex-row items-center justify-between gap-6">
@@ -118,7 +118,7 @@ export default function Page() {
       </section>
 
       {/* CONTACTO */}
-      <section id="contacto" className="py-16 bg-white">
+      <section id="contacto" className="py-16 tint-primary sep-top">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl md:text-4xl font-bold">Contacto</h2>
           <p className="text-slate-600 mt-2">Cuéntanos objetivo, contexto y timing. Te respondemos en 24h hábiles.</p>
