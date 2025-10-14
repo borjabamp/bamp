@@ -178,7 +178,7 @@ export default function Page() {
       <footer className="py-10 border-t border-slate-200 bg-white">
         <div className="container mx-auto px-4 flex flex-col md:flex-row items-center justify-between gap-3 text-slate-600 text-sm">
           <div className="flex items-center gap-2">
-            <img src="/logos/bamp-full.svg" alt="BAMP Digital Partners" className="h-6 md:h-8" />
+            <img src="/logos/bamp-full.svg" alt="BAMP Digital Partners" className="h-10 md:h-12" />
           </div>
           <div className="flex gap-4">
             <a href="#top" className="hover:text-[var(--primary)]">Inicio</a>
