@@ -19,29 +19,22 @@ export default function Page() {
       </header>
 
       {/* HERO */}
-      <section id="top" className="relative">
-        <div className="blob"></div>
-        <div className="container mx-auto px-4 py-16 md:py-24 relative z-10 grid md:grid-cols-12 gap-10 items-center">
-          <div className="md:col-span-7">
-            <div className="inline-flex items-center gap-2 mb-4"><span className="badge">Partner Digital</span><span className="text-slate-500 text-sm">Estrategia · Tecnología · IA</span></div>
-            <h1 className="text-4xl md:text-6xl font-extrabold leading-tight">Tu partner digital
-              <span className="text-transparent bg-clip-text" style={{ backgroundImage: "linear-gradient(90deg,var(--primary),var(--accent))" }}> para crecer con inteligencia</span>
+      <section id="top" className="relative hero-bg">
+        <div className="container mx-auto px-4 py-16 md:py-24 hero-content">
+          <div className="max-w-3xl">
+            <div className="inline-flex items-center gap-2 mb-4">
+              <span className="badge">Partner Digital</span>
+              <span className="text-slate-500 text-sm">Estrategia · Tecnología · IA</span>
+            </div>
+            <h1 className="text-4xl md:text-6xl font-extrabold leading-tight">
+              Estrategia Humana. <span className="text-transparent bg-clip-text" style={{ backgroundImage: "linear-gradient(90deg,var(--primary),var(--accent))" }}>Ejecución inteligente.</span>
             </h1>
-            <p className="mt-5 text-lg text-slate-600 max-w-2xl">Conectamos estrategia, tecnología e IA para automatizar procesos, optimizar la captación y tomar mejores decisiones con datos.</p>
+            <p className="mt-5 text-lg text-slate-600 max-w-2xl">
+              Conectamos estrategia, tecnología e IA para automatizar procesos, optimizar la captación y tomar mejores decisiones con datos.
+            </p>
             <div className="mt-8 flex gap-3">
-              <a href="#contacto" className="pill px-6 py-3 btn-primary">Agenda una consulta</a>
+              <a href="#contacto" className="pill px-6 py-3 btn-primary">Contáctanos</a>
               <a href="#servicios" className="pill px-6 py-3 btn-ghost">Ver qué hacemos</a>
-            </div>
-            <div className="mt-8 flex items-center gap-6 text-slate-500 text-sm">
-              <div className="kpi p-4"><div className="text-2xl font-extrabold">+32%</div><div>ROAS medio</div></div>
-              <div className="kpi p-4"><div className="text-2xl font-extrabold">−41%</div><div>CPL</div></div>
-              <div className="kpi p-4"><div className="text-2xl font-extrabold">7 días</div><div>Time‑to‑value</div></div>
-            </div>
-          </div>
-          <div className="md:col-span-5">
-            <div className="card p-5">
-              <div className="aspect-[4/3] w-full rounded-lg border border-slate-200 bg-[url('https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&w=1200&q=80')] bg-cover bg-center"></div>
-              <div className="mt-3 text-sm text-slate-500">IA aplicada a captación, automatización y analytics.</div>
             </div>
           </div>
         </div>
