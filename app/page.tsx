@@ -5,7 +5,7 @@ export default function Page() {
       <header className="sticky top-0 z-50 bg-white/70 backdrop-blur supports-[backdrop-filter]:bg-white/60 border-b border-slate-200">
         <nav className="container mx-auto px-4 py-3 flex items-center justify-between">
           <a href="#top" className="flex items-center gap-3">
-            <div className="w-8 h-8 rounded-lg" style={{background:"linear-gradient(135deg,var(--primary),var(--accent))"}}></div>
+            <div className="w-8 h-8 rounded-lg" style={{ background: "linear-gradient(135deg,var(--primary),var(--accent))" }}></div>
             <span className="font-semibold">BAMP Digital Partners</span>
           </a>
           <ul className="hidden md:flex items-center gap-8 text-sm text-slate-600">
@@ -25,7 +25,7 @@ export default function Page() {
           <div className="md:col-span-7">
             <div className="inline-flex items-center gap-2 mb-4"><span className="badge">Partner Digital</span><span className="text-slate-500 text-sm">Estrategia · Tecnología · IA</span></div>
             <h1 className="text-4xl md:text-6xl font-extrabold leading-tight">Tu partner digital
-              <span className="text-transparent bg-clip-text" style={{backgroundImage:"linear-gradient(90deg,var(--primary),var(--accent))"}}> para crecer con inteligencia</span>
+              <span className="text-transparent bg-clip-text" style={{ backgroundImage: "linear-gradient(90deg,var(--primary),var(--accent))" }}> para crecer con inteligencia</span>
             </h1>
             <p className="mt-5 text-lg text-slate-600 max-w-2xl">Conectamos estrategia, tecnología e IA para automatizar procesos, optimizar la captación y tomar mejores decisiones con datos.</p>
             <div className="mt-8 flex gap-3">
@@ -143,19 +143,31 @@ export default function Page() {
         <div className="container mx-auto px-4">
           <h2 className="text-3xl md:text-4xl font-bold">Contacto</h2>
           <p className="text-slate-600 mt-2">Cuéntanos objetivo, contexto y timing. Te respondemos en 24h hábiles.</p>
-          <form className="card p-6 grid md:grid-cols-2 gap-4 mt-8" action="https://formsubmit.co" method="post">
+          <form
+            className="card p-6 grid md:grid-cols-2 gap-4 mt-8"
+            action="https://formsubmit.co/info@bamp.es"
+            method="post"
+          >
             <input type="hidden" name="_subject" value="BAMP Digital Partners · Nueva consulta" />
-            <label className="flex flex-col gap-2"><span className="text-sm text-slate-600">Nombre</span>
+            <input type="hidden" name="_next" value="https://bamp.es?enviado=1" />
+            <input type="hidden" name="_captcha" value="false" />
+            <input type="text" name="_honey" className="hidden" tabIndex={-1} autoComplete="off" />
+            <label className="flex flex-col gap-2">
+              <span className="text-sm text-slate-600">Nombre</span>
               <input name="nombre" required className="bg-white border border-slate-200 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-300" />
             </label>
-            <label className="flex flex-col gap-2"><span className="text-sm text-slate-600">Email</span>
+            <label className="flex flex-col gap-2">
+              <span className="text-sm text-slate-600">Email</span>
               <input type="email" name="email" required className="bg-white border border-slate-200 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-300" />
             </label>
-            <label className="md:col-span-2 flex flex-col gap-2"><span className="text-sm text-slate-600">Mensaje</span>
+            <label className="md:col-span-2 flex flex-col gap-2">
+              <span className="text-sm text-slate-600">Mensaje</span>
               <textarea name="mensaje" rows={4} required className="bg-white border border-slate-200 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-300"></textarea>
             </label>
             <div className="md:col-span-2 flex justify-between items-center">
-              <div className="text-sm text-slate-500">O escribe a <a className="link" href="mailto:hola@bamp.partners">hola@bamp.partners</a></div>
+              <div className="text-sm text-slate-500">
+                O escribe a <a className="link" href="mailto:info@bamp.es">info@bamp.es</a>
+              </div>
               <button className="pill px-5 py-2 btn-primary font-semibold" type="submit">Enviar</button>
             </div>
           </form>
@@ -166,7 +178,7 @@ export default function Page() {
       <footer className="py-10 border-t border-slate-200 bg-white">
         <div className="container mx-auto px-4 flex flex-col md:flex-row items-center justify-between gap-3 text-slate-600 text-sm">
           <div className="flex items-center gap-2">
-            <div className="w-5 h-5 rounded-md" style={{background:"linear-gradient(135deg,var(--primary),var(--accent))"}}></div>
+            <div className="w-5 h-5 rounded-md" style={{ background: "linear-gradient(135deg,var(--primary),var(--accent))" }}></div>
             <span>BAMP Digital Partners</span>
           </div>
           <div className="flex gap-4">
