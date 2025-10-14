@@ -1,3 +1,7 @@
+"use client";
+import dynamic from "next/dynamic";
+const ServicesCarousel = dynamic(() => import("./components/ServicesCarousel"), { ssr: false });
+
 export default function Page() {
   return (
     <main>
@@ -44,31 +48,13 @@ export default function Page() {
       <section id="servicios" className="py-16">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl md:text-4xl font-bold">Qué hacemos</h2>
-          <p className="mt-2 text-slate-600 max-w-2xl">Pilares de acompañamiento para resultados sostenibles.</p>
-          <div className="grid md:grid-cols-4 gap-6 mt-10">
-            <article className="card p-6">
-              <div className="chip mb-3">Estrategia</div>
-              <h3 className="font-semibold text-lg mb-2">Diagnóstico y roadmap</h3>
-              <p className="text-slate-600">Auditoría de madurez, objetivos y plan de evolución digital.</p>
-            </article>
-            <article className="card p-6">
-              <div className="chip mb-3">IA & Automatización</div>
-              <h3 className="font-semibold text-lg mb-2">Chatbots y workflows</h3>
-              <p className="text-slate-600">Asistentes, RPA ligero e integración con CRM y APIs.</p>
-            </article>
-            <article className="card p-6">
-              <div className="chip mb-3">Performance</div>
-              <h3 className="font-semibold text-lg mb-2">Growth y paid media</h3>
-              <p className="text-slate-600">Campañas multicanal con optimización continua y testing.</p>
-            </article>
-            <article className="card p-6">
-              <div className="chip mb-3">Data & Analytics</div>
-              <h3 className="font-semibold text-lg mb-2">Medición y dashboards</h3>
-              <p className="text-slate-600">GA4, Tag Manager y paneles ejecutivos en tiempo real.</p>
-            </article>
+          <p className="mt-2 text-slate-600 max-w-2xl">De la oportunidad al impacto medido.</p>
+          <div className="mt-8 max-w-3xl mx-auto">
+            <ServicesCarousel />
           </div>
         </div>
       </section>
+
 
       {/* METODO */}
       <section id="metodo" className="py-16 bg-white">
