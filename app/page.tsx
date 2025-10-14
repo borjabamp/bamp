@@ -5,7 +5,7 @@ export default function Page() {
       <header className="sticky top-0 z-50 bg-white/70 backdrop-blur supports-[backdrop-filter]:bg-white/60 border-b border-slate-200">
         <nav className="container mx-auto px-4 py-3 flex items-center justify-between">
           <a href="#top" className="flex items-center gap-3">
-            <img src="/logos/bamp-icon.svg" alt="BAMP logo" className="w-8 h-8" />
+            <img src="/logos/bamp-icon.png" alt="BAMP logo" className="w-8 h-8" />
             <span className="font-semibold">BAMP Digital Partners</span>
           </a>
           <ul className="hidden md:flex items-center gap-8 text-sm text-slate-600">
@@ -20,7 +20,7 @@ export default function Page() {
 
       {/* HERO */}
       <section id="top" className="relative hero-bg">
-      <div className="container mx-auto px-4 py-28 md:py-40 hero-content min-h-screen flex items-center">
+        <div className="container mx-auto px-4 py-28 md:py-40 hero-content min-h-screen flex items-center">
           <div className="max-w-3xl">
             <div className="inline-flex items-center gap-2 mb-4">
               <span className="badge">Partner Digital</span>
@@ -171,7 +171,7 @@ export default function Page() {
       <footer className="py-10 border-t border-slate-200 bg-white">
         <div className="container mx-auto px-4 flex flex-col md:flex-row items-center justify-between gap-3 text-slate-600 text-sm">
           <div className="flex items-center gap-2">
-            <img src="/logos/bamp-full.svg" alt="BAMP Digital Partners" className="h-10 md:h-12" />
+            <img src="/logos/bamp-full.png" alt="BAMP Digital Partners" className="h-10 md:h-12" />
           </div>
           <div className="flex gap-4">
             <a href="#top" className="hover:text-[var(--primary)]">Inicio</a>
