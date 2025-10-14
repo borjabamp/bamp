@@ -45,7 +45,7 @@ export default function Page() {
       </section>
 
       {/* QUÉ HACEMOS */}
-      <section id="servicios" className="py-16">
+      <section id="servicios" className="py-16 tint-accent sep-top">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl md:text-4xl font-bold">Qué hacemos</h2>
           <p className="mt-2 text-slate-600 max-w-2xl">De la oportunidad al impacto medido.</p>
