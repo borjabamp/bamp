@@ -20,7 +20,7 @@ export default function Page() {
 
       {/* HERO */}
       <section id="top" className="relative hero-bg">
-        <div className="container mx-auto px-4 py-16 md:py-24 hero-content">
+      <div className="container mx-auto px-4 py-28 md:py-40 hero-content min-h-screen flex items-center">
           <div className="max-w-3xl">
             <div className="inline-flex items-center gap-2 mb-4">
               <span className="badge">Partner Digital</span>
