@@ -61,7 +61,7 @@ export default function Page() {
       </section>
 
       {/* STACK */}
-      <section className="py-16 bg-ink-strong text-white">
+      <section className="py-16 bg-secundary-strong">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl md:text-4xl font-bold">Stack y herramientas</h2>
           <p className="mt-2 text-white/80 max-w-2xl">Trabajamos con lo que ya usas y aportamos piezas nuevas si aporta ROI.</p>
