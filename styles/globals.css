@@ -19,7 +19,7 @@ background:radial-gradient(600px 300px at 20% 20%, var(--primary), transparent 6
 .kpi{border:1px solid #e5e7eb;border-radius:.75rem;background:#fff}
 .badge{background:rgba(37,99,235,.08);color:var(--primary);border-radius:9999px;padding:.25rem .6rem;font-weight:600;font-size:.75rem}
 
-/* Hero con imagen de fondo muy sutil */
+/* Hero con imagen de fondo */
 .hero-bg{position:relative}
 .hero-bg::before{
   content:"";position:absolute;inset:0;z-index:0;
@@ -28,25 +28,24 @@ background:radial-gradient(600px 300px at 20% 20%, var(--primary), transparent 6
 }
 .hero-content{position:relative;z-index:1}
 
-/* Imagenes de fondo */
-.bg-fondo2{position:relative}
-.bg-fondo2::before {
-  content: "";position: absolute;inset: 0;z-index: 0;
-  background: url('/backgrounds/mi-fondo2.jpg') center/cover no-repeat;
-  opacity: .6;filter: blur(.5px);
+/* Fondos por sección reutilizables */
+.bg-fondo1,.bg-fondo2,.bg-fondo3{position:relative}
+.bg-fondo1::before,
+.bg-fondo2::before,
+.bg-fondo3::before{
+  content:"";position:absolute;inset:0;z-index:0;
+  background-size:cover;background-position:center;background-repeat:no-repeat;
+  opacity:.6;filter:blur(.5px);
 }
-
-.bg-fondo3{position:relative}
-.bg-fondo3::before {
-  content: "";position: absolute;inset: 0;z-index: 0;
-  background: url('/backgrounds/mi-fondo3.jpg') center/cover no-repeat;
-  opacity: .6;filter: blur(.5px);
-}
+.bg-fondo1::before{background-image:url('/backgrounds/mi-fondo1.jpg')}
+.bg-fondo2::before{background-image:url('/backgrounds/mi-fondo2.jpg')}
+.bg-fondo3::before{background-image:url('/backgrounds/mi-fondo3.jpg')}
 
 /* Fondos intensos de marca */
-.bg-primary-strong {background: linear-gradient(180deg, #83a2e4 0%, #4678ee 100%);color: #fff;}
-.bg-secundary-strong {background: linear-gradient(180deg, #4678ee 0%, #83a2e4 100%);color: #fff;}
-.bg-accent-strong {background: linear-gradient(180deg, #8b5cf6 0%, #6d28d9 100%);color: #fff;}
-.bg-ink-strong {background: linear-gradient(180deg, #111827 0%, #1f2937 100%);color: #fff;}
+.bg-primary-strong {background: linear-gradient(180deg, #2563eb 0%, #1e40af 100%);color:#fff;}
+.bg-accent-strong  {background: linear-gradient(180deg, #8b5cf6 0%, #6d28d9 100%);color:#fff;}
+.bg-ink-strong     {background: linear-gradient(180deg, #111827 0%, #1f2937 100%);color:#fff;}
+
+/* Separadores sutiles */
 .sep-top{border-top:1px solid #e5e7eb}
 .sep-bottom{border-bottom:1px solid #e5e7eb}
