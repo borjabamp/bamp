@@ -50,12 +50,75 @@ export default function Page() {
       </section>
 
       {/* QUÉ HACEMOS */}
-      <section id="servicios" className="py-16 bg-primary-strong">
-        <div className="container mx-auto px-4 min-h-screen">
-          <h2 className="text-3xl md:text-4xl font-bold">Qué hacemos</h2>
-          <p className="mt-2 text-slate-100 max-w-2xl">De la oportunidad al impacto medido.</p>
-          <div className="mt-8 max-w-3xl mx-auto">
-            <ServicesCarousel />
+      <section id="servicios" className="py-20 bg-white">
+        <div className="container mx-auto px-4">
+          <h2 className="text-center text-3xl md:text-4xl font-extrabold">
+            De la oportunidad al impacto medido
+          </h2>
+
+          <div className="grid md:grid-cols-3 gap-6 mt-10">
+            {/* Servicio 1 */}
+            <a
+              href="/servicios/gut"
+              className="relative card p-6 overflow-hidden focus:outline-none focus:ring-4 focus:ring-indigo-300"
+              aria-label="Marca y Contenido: ir al detalle del servicio"
+            >
+              <div
+                aria-hidden="true"
+                className="absolute inset-0 opacity-20"
+                style={{ background: "url('/backgrounds/gut.jpg') center/cover no-repeat" }}
+              />
+              <div className="relative">
+                <span className="chip mb-3 inline-block">Marca y Contenido</span>
+                <h3 className="font-semibold text-xl mb-2">Estrategia creativa full-funnel</h3>
+                <p className="text-slate-600 text-sm">
+                  Impulsa estrategia, creatividad, contenido y marketing full-funnel con autenticidad de marca y experiencias conectadas.
+                </p>
+                <span className="mt-4 inline-flex link">Ver detalle →</span>
+              </div>
+            </a>
+
+            {/* Servicio 2 */}
+            <a
+              href="/servicios/digital-evolution"
+              className="relative card p-6 overflow-hidden focus:outline-none focus:ring-4 focus:ring-indigo-300"
+              aria-label="Evolución Digital: ir al detalle del servicio"
+            >
+              <div
+                aria-hidden="true"
+                className="absolute inset-0 opacity-20"
+                style={{ background: "url('/backgrounds/evolution.jpg') center/cover no-repeat" }}
+              />
+              <div className="relative">
+                <span className="chip mb-3 inline-block">Evolución Digital</span>
+                <h3 className="font-semibold text-xl mb-2">Ingeniería de productos y plataformas</h3>
+                <p className="text-slate-600 text-sm">
+                  Acelera desarrollo con fast code, cloud ops, gemelos digitales y experiencias inmersivas listas para escalar.
+                </p>
+                <span className="mt-4 inline-flex link">Ver detalle →</span>
+              </div>
+            </a>
+
+            {/* Servicio 3 */}
+            <a
+              href="/servicios/enterprise"
+              className="relative card p-6 overflow-hidden focus:outline-none focus:ring-4 focus:ring-indigo-300"
+              aria-label="Enterprise Platforms: ir al detalle del servicio"
+            >
+              <div
+                aria-hidden="true"
+                className="absolute inset-0 opacity-20"
+                style={{ background: "url('/backgrounds/enterprise.jpg') center/cover no-repeat" }}
+              />
+              <div className="relative">
+                <span className="chip mb-3 inline-block">Enterprise Platforms</span>
+                <h3 className="font-semibold text-xl mb-2">Transformación sobre tu stack</h3>
+                <p className="text-slate-600 text-sm">
+                  SAP, Salesforce, Microsoft, Google y OpenAI con foco en procesos, ServiceNow y operaciones sostenibles.
+                </p>
+                <span className="mt-4 inline-flex link">Ver detalle →</span>
+              </div>
+            </a>
           </div>
         </div>
       </section>
