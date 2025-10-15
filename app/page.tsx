@@ -13,7 +13,21 @@ export default function Page() {
             <span className="font-semibold">BAMP Digital Partners</span>
           </a>
           <ul className="hidden md:flex items-center gap-8 text-sm text-slate-600">
-            <li><a href="#servicios" className="hover:text-[var(--primary)]">Qué hacemos</a></li>
+            <li className="relative group">
+              <a href="/servicios" className="hover:text-[var(--primary)] inline-flex items-center gap-1">
+                Qué hacemos
+                <svg width="14" height="14" viewBox="0 0 20 20" className="opacity-60"><path d="M5 7l5 5 5-5" fill="none" stroke="currentColor" strokeWidth="2" /></svg>
+              </a>
+              {/* Dropdown */}
+              <div className="absolute left-0 mt-2 hidden group-hover:block">
+                <div className="card p-3 min-w-[220px]">
+                  <a href="/servicios" className="block px-3 py-2 rounded hover:bg-slate-50">Vista general</a>
+                  <a href="/servicios/gut" className="block px-3 py-2 rounded hover:bg-slate-50">Marca y Contenido</a>
+                  <a href="/servicios/digital-evolution" className="block px-3 py-2 rounded hover:bg-slate-50">Evolución Digital</a>
+                  <a href="/servicios/enterprise" className="block px-3 py-2 rounded hover:bg-slate-50">Enterprise Platforms</a>
+                </div>
+              </div>
+            </li>
             <li><a href="#metodo" className="hover:text-[var(--primary)]">Método</a></li>
             <li><a href="#casos" className="hover:text-[var(--primary)]">Casos</a></li>
             <li><a href="#contacto" className="hover:text-[var(--primary)]">Contacto</a></li>
@@ -43,7 +57,7 @@ export default function Page() {
             */}
             <div className="mt-8 flex gap-3">
               <a href="#contacto" className="pill px-6 py-3 btn-primary">Contáctanos</a>
-              <a href="#servicios" className="pill px-6 py-3 btn-ghost">Ver qué hacemos</a>
+              <a href="/servicios" className="pill px-6 py-3 btn-ghost">Ver qué hacemos</a>
             </div>
           </div>
         </div>
@@ -66,7 +80,7 @@ export default function Page() {
               <div
                 aria-hidden="true"
                 className="absolute inset-0 opacity-70"
-                style={{ background: "url('/backgrounds/gut.jpg') center/cover no-repeat",filter: "brightness(1.1) contrast(1.1)" }}
+                style={{ background: "url('/backgrounds/gut.jpg') center/cover no-repeat", filter: "brightness(1.1) contrast(1.1)" }}
               />
               <div className="relative">
                 <span className="chip mb-3 inline-block">Marca y Contenido</span>
@@ -86,8 +100,8 @@ export default function Page() {
             >
               <div
                 aria-hidden="true"
-                className="absolute inset-0 opacity-20"
-                style={{ background: "url('/backgrounds/evolution.jpg') center/cover no-repeat" }}
+                className="absolute inset-0 opacity-70"
+                style={{ background: "url('/backgrounds/evolution.jpg') center/cover no-repeat", filter: "brightness(1.1) contrast(1.1)" }}
               />
               <div className="relative">
                 <span className="chip mb-3 inline-block">Evolución Digital</span>
@@ -107,8 +121,8 @@ export default function Page() {
             >
               <div
                 aria-hidden="true"
-                className="absolute inset-0 opacity-20"
-                style={{ background: "url('/backgrounds/enterprise.jpg') center/cover no-repeat" }}
+                className="absolute inset-0 opacity-70"
+                style={{ background: "url('/backgrounds/enterprise.jpg') center/cover no-repeat", filter: "brightness(1.1) contrast(1.1)" }}
               />
               <div className="relative">
                 <span className="chip mb-3 inline-block">Enterprise Platforms</span>
@@ -120,6 +134,14 @@ export default function Page() {
               </div>
             </a>
           </div>
+        </div>
+        <div className="mt-6">
+          <a
+            href="/servicios"
+            className="inline-flex items-center gap-2 px-4 py-2 rounded-xl border border-slate-200 bg-white hover:shadow-md transition"
+          >
+            BAMP para tu negocio, todo lo que podemos hacer →
+          </a>
         </div>
       </section>
 
@@ -341,7 +363,7 @@ export default function Page() {
           </div>
           <div className="flex gap-4">
             <a href="#top" className="hover:text-[var(--primary)]">Inicio</a>
-            <a href="#servicios" className="hover:text-[var(--primary)]">Qué hacemos</a>
+            <a href="/servicios" className="hover:text-[var(--primary)]">Qué hacemos</a>
             <a href="#contacto" className="hover:text-[var(--primary)]">Contacto</a>
           </div>
           <div>© {new Date().getFullYear()} · Todos los derechos reservados</div>
