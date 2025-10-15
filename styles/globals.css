@@ -23,7 +23,7 @@ background:radial-gradient(600px 300px at 20% 20%, var(--primary), transparent 6
 .hero-bg::before{
   content:"";position:absolute;inset:0;z-index:0;
   background:url('https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&w=1600&q=60') center/cover no-repeat;
-  opacity:.15;filter:blur(1px);
+  opacity:.50;filter:blur(1px);
 }
 .hero-content{position:relative;z-index:1}
 /* Fondos intensos de marca */
