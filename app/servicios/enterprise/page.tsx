@@ -9,7 +9,21 @@ export default function Enterprise() {
                         <span className="font-semibold">BAMP Digital Partners</span>
                     </a>
                     <ul className="hidden md:flex items-center gap-8 text-sm text-slate-600">
-                        <li><a href="/#servicios" className="hover:text-[var(--primary)]">Qué hacemos</a></li>
+                        <li className="relative group">
+                            <a href="/servicios" className="hover:text-[var(--primary)] inline-flex items-center gap-1">
+                                Qué hacemos
+                                <svg width="14" height="14" viewBox="0 0 20 20" className="opacity-60"><path d="M5 7l5 5 5-5" fill="none" stroke="currentColor" strokeWidth="2" /></svg>
+                            </a>
+                            {/* Dropdown */}
+                            <div className="absolute left-0 mt-2 hidden group-hover:block">
+                                <div className="card p-3 min-w-[220px]">
+                                    <a href="/servicios" className="block px-3 py-2 rounded hover:bg-slate-50">Vista general</a>
+                                    <a href="/servicios/gut" className="block px-3 py-2 rounded hover:bg-slate-50">Marca y Contenido</a>
+                                    <a href="/servicios/digital-evolution" className="block px-3 py-2 rounded hover:bg-slate-50">Evolución Digital</a>
+                                    <a href="/servicios/enterprise" className="block px-3 py-2 rounded hover:bg-slate-50">Enterprise Platforms</a>
+                                </div>
+                            </div>
+                        </li>
                         <li><a href="/#metodo" className="hover:text-[var(--primary)]">Método</a></li>
                         <li><a href="/#contacto" className="hover:text-[var(--primary)]">Contacto</a></li>
                     </ul>
