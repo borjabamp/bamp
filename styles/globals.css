@@ -44,10 +44,11 @@ background:radial-gradient(600px 300px at 20% 20%, var(--primary), transparent 6
 .bg-fondobrain::before{background-image:url('/backgrounds/mi-fondobrain.jpg')}
 
 /* Fondos intensos de marca */
-.bg-primary-strong {background: linear-gradient(180deg, #2563eb 0%, #1e40af 100%);color:#fff;}
+.bg-primary-strong {background: linear-gradient(180deg, #bcd1ff 0%, #1e40af 100%);color:#fff;}
+.bg-secundary-strong {background: linear-gradient(180deg, #1e40af 0%, #1e40af 100%);color:#fff;}
 .bg-accent-strong  {background: linear-gradient(180deg, #8b5cf6 0%, #6d28d9 100%);color:#fff;}
 .bg-ink-strong     {background: linear-gradient(180deg, #111827 0%, #1f2937 100%);color:#fff;}
 
 /* Separadores sutiles */
-.sep-top{border-top:1px solid #e5e7eb}
+.sep-top{border-top:4px solid #e3ebfd}
 .sep-bottom{border-bottom:1px solid #e5e7eb}
