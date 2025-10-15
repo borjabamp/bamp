@@ -45,10 +45,10 @@ export default function Page() {
       </section>
 
       {/* QUÉ HACEMOS */}
-      <section id="servicios" className="py-20 bg-primary-strong sep-top">
+      <section id="servicios" className="py-20 bg-primary-strong sep-top sep-bottom">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl md:text-4xl font-bold">Qué hacemos</h2>
-          <p className="mt-2 text-slate-600 max-w-2xl">De la oportunidad al impacto medido.</p>
+          <p className="mt-2 text-slate-100 max-w-2xl">De la oportunidad al impacto medido.</p>
           <div className="mt-8 max-w-3xl mx-auto">
             <ServicesCarousel />
           </div>
@@ -57,7 +57,7 @@ export default function Page() {
 
 
       {/* METODO */}
-      <section id="metodo" className="py-16 bg-white">
+      <section id="metodo" className="py-16 bg-accent-strong sep-bottom sep-top">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl md:text-4xl font-bold">Cómo trabajamos</h2>
           <p className="mt-2 text-slate-600 max-w-2xl">Acompañamiento de partner, no proveedor puntual.</p>
