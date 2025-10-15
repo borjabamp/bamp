@@ -51,7 +51,7 @@ export default function Page() {
 
       {/* QUÉ HACEMOS */}
       <section id="servicios" className="py-20 bg-white">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-4 min-h-screen">
           <h2 className="text-center text-3xl md:text-4xl font-extrabold">
             De la oportunidad al impacto medido
           </h2>
@@ -65,14 +65,14 @@ export default function Page() {
             >
               <div
                 aria-hidden="true"
-                className="absolute inset-0 opacity-20"
-                style={{ background: "url('/backgrounds/gut.jpg') center/cover no-repeat" }}
+                className="absolute inset-0 opacity-70"
+                style={{ background: "url('/backgrounds/gut.jpg') center/cover no-repeat",filter: "brightness(1.1) contrast(1.1)" }}
               />
               <div className="relative">
                 <span className="chip mb-3 inline-block">Marca y Contenido</span>
-                <h3 className="font-semibold text-xl mb-2">Estrategia creativa full-funnel</h3>
+                <h3 className="font-semibold text-xl mb-2">Estrategia marketing full-funnel</h3>
                 <p className="text-slate-600 text-sm">
-                  Impulsa estrategia, creatividad, contenido y marketing full-funnel con autenticidad de marca y experiencias conectadas.
+                  Impulsa tu estrategia, creatividad, contenido y marketing full-funnel con autenticidad de tu marca y experiencias conectadas.
                 </p>
                 <span className="mt-4 inline-flex link">Ver detalle →</span>
               </div>
