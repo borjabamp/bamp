@@ -57,7 +57,7 @@ export default function Page() {
 
 
       {/* METODO */}
-      <section id="metodo" className="py-16 bg-primary-strong sep-bottom sep-top">
+      <section id="metodo" className="py-16 bg-secundary-strong">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl md:text-4xl font-bold">Cómo trabajamos</h2>
           <p className="mt-2 text-slate-600 max-w-2xl">Acompañamiento de partner, no proveedor puntual.</p>
@@ -103,7 +103,7 @@ export default function Page() {
       </section>
 
       {/* CTA */}
-      <section className="py-16 bg-primary-strong">
+      <section className="py-16 bg-secundary-strong">
         <div className="container mx-auto px-4">
           <div className="rounded-2xl p-8 md:p-10 border border-slate-200 bg-gradient-to-r from-white to-[#fafafe]">
             <div className="flex flex-col md:flex-row items-center justify-between gap-6">
