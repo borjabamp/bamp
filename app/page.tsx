@@ -124,12 +124,7 @@ export default function Page() {
       {/* CONTACTO */}
       <section id="contacto" className="py-16 bg-ink-strong">
         <div className="flex flex-col justify-center h-full">
-          <p
-            className="text-7xl md:text-8xl font-extrabold text-transparent bg-clip-text leading-tight text-center"
-            style={{
-              backgroundImage: "linear-gradient(90deg, #ffffff 0%, #c9c1e3 100%)",
-            }}
-          >
+          <p className="text-7xl md:text-8xl font-extrabold text-white leading-tight text-center">
             Conecta tu negocio<br />al futuro.
           </p>
         </div>
