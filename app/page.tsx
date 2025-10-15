@@ -125,11 +125,11 @@ export default function Page() {
 
       {/* CONTACTO */}
       <section id="contacto" className="py-16 bg-ink-strong">
-        <div className="container mx-auto px-4 grid md:grid-cols-2 gap-10 items-start">
+        <div className="container mx-auto px-4 grid md:grid-cols-2 gap-10 items-center min-h-[70vh]">
           {/* Texto grande a la izquierda */}
           <div className="flex items-center">
-            <p className="text-7xl md:text-8xl font-extrabold text-white leading-tight text-center w-full">
-              Conecta tu negocio<br />al futuro.
+            <p className="text-5xl md:text-6xl font-extrabold text-white leading-tight text-center w-full">
+              Conecta tu negocio<br />al futuro
             </p>
           </div>
 
