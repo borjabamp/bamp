@@ -36,9 +36,11 @@ export default function Page() {
                 Ejecución inteligente.
               </span>
             </h1>
+            {/*
             <p className="mt-5 text-lg text-slate-600 max-w-2xl">
               Conectamos estrategia, tecnología e IA para automatizar procesos, optimizar la captación y tomar mejores decisiones con datos.
             </p>
+            */}
             <div className="mt-8 flex gap-3">
               <a href="#contacto" className="pill px-6 py-3 btn-primary">Contáctanos</a>
               <a href="#servicios" className="pill px-6 py-3 btn-ghost">Ver qué hacemos</a>
