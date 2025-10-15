@@ -45,7 +45,7 @@ export default function Page() {
       </section>
 
       {/* QUÉ HACEMOS */}
-      <section id="servicios" className="py-20 bg-primary-strong">
+      <section id="servicios" className="relative bg-fondo2">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl md:text-4xl font-bold">Qué hacemos</h2>
           <p className="mt-2 text-slate-100 max-w-2xl">De la oportunidad al impacto medido.</p>
@@ -103,7 +103,7 @@ export default function Page() {
       </section>
 
       {/* CTA */}
-      <section className="py-16 bg-secundary-strong">
+      <section className="relative bg-fondo3">
         <div className="container mx-auto px-4">
           <div className="rounded-2xl p-8 md:p-10 border border-slate-200 bg-gradient-to-r from-white to-[#fafafe]">
             <div className="flex flex-col md:flex-row items-center justify-between gap-6">
