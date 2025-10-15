@@ -60,6 +60,20 @@ export default function Page() {
         </div>
       </section>
 
+      {/* STACK */}
+      <section className="py-16 bg-ink-strong text-white">
+        <div className="container mx-auto px-4">
+          <h2 className="text-3xl md:text-4xl font-bold">Stack y herramientas</h2>
+          <p className="mt-2 text-white/80 max-w-2xl">Trabajamos con lo que ya usas y aportamos piezas nuevas si aporta ROI.</p>
+          <div className="grid md:grid-cols-4 gap-4 mt-8 text-sm">
+            <div className="card bg-white/5 border-white/10 p-4">GA4 · GTM · Looker Studio</div>
+            <div className="card bg-white/5 border-white/10 p-4">Meta · Google Ads · SEO</div>
+            <div className="card bg-white/5 border-white/10 p-4">Zapier · Make · n8n</div>
+            <div className="card bg-white/5 border-white/10 p-4">APIs · Webhooks · Next.js</div>
+          </div>
+        </div>
+      </section>
+
       {/* METODO */}
       <section id="metodo" className="py-16 bg-secundary-strong">
         <div className="container mx-auto px-4">
@@ -80,6 +94,43 @@ export default function Page() {
               <div className="badge mb-3">03</div>
               <h3 className="font-semibold text-lg mb-2">Escalado</h3>
               <p className="text-slate-700">Optimización continua, governance y transferencia de conocimiento.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* PRINCIPIOS */}
+      <section className="py-16 bg-white">
+        <div className="container mx-auto px-4">
+          <h2 className="text-3xl md:text-4xl font-bold">Por qué BAMP</h2>
+          <div className="grid md:grid-cols-3 gap-6 mt-8">
+            <article className="card p-6">
+              <h3 className="font-semibold mb-2">Impacto en semanas</h3>
+              <p className="text-slate-600 text-sm">Kickoff en 48h y primeros entregables en 7 días.</p>
+            </article>
+            <article className="card p-6">
+              <h3 className="font-semibold mb-2">IA aplicada</h3>
+              <p className="text-slate-600 text-sm">Automatizaciones y copilots conectados a tu stack.</p>
+            </article>
+            <article className="card p-6">
+              <h3 className="font-semibold mb-2">Gobernanza y datos</h3>
+              <p className="text-slate-600 text-sm">Métricas claras, paneles ejecutivos y seguridad.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      {/* CTA EARLY ADOPTER */}
+      <section className="py-16 bg-accent-strong">
+        <div className="container mx-auto px-4">
+          <div className="rounded-2xl p-8 md:p-10 border border-white/20">
+            <div className="flex flex-col md:flex-row items-center justify-between gap-6">
+              <div>
+                <span className="badge bg-white/20 text-white">Programa Early Adopter</span>
+                <h3 className="text-2xl font-bold mt-2">Lanza con ventaja</h3>
+                <p className="text-white/90">Cupos limitados · Onboarding prioritario · Roadmap a medida.</p>
+              </div>
+              <a href="#contacto" className="pill px-6 py-3 border border-white/40 text-white hover:bg-white/10 transition">Solicitar plaza</a>
             </div>
           </div>
         </div>
@@ -124,6 +175,27 @@ export default function Page() {
         </div>
       </section>
       */}
+
+      {/* FAQ */}
+      <section className="py-16 bg-white">
+        <div className="container mx-auto px-4 max-w-3xl">
+          <h2 className="text-3xl md:text-4xl font-bold">Preguntas frecuentes</h2>
+          <div className="mt-8 space-y-4">
+            <details className="card p-4">
+              <summary className="font-semibold cursor-pointer">¿En cuánto tiempo veo resultados?</summary>
+              <p className="text-slate-600 mt-2 text-sm">Primeras mejoras en 2–4 semanas. Depende del canal y del punto de partida.</p>
+            </details>
+            <details className="card p-4">
+              <summary className="font-semibold cursor-pointer">¿Necesito cambiar mi stack?</summary>
+              <p className="text-slate-600 mt-2 text-sm">No. Integramos con lo existente y añadimos lo mínimo imprescindible.</p>
+            </details>
+            <details className="card p-4">
+              <summary className="font-semibold cursor-pointer">¿Cómo medimos el éxito?</summary>
+              <p className="text-slate-600 mt-2 text-sm">Definimos KPIs al inicio y los ves en paneles ejecutivos semanales.</p>
+            </details>
+          </div>
+        </div>
+      </section>
 
       {/* CONTACTO */}
       <section id="contacto" className="py-16 bg-ink-strong">
