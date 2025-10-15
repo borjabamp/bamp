@@ -82,7 +82,7 @@ export default function Page() {
       </section>
 
       {/* CASOS */}
-      <section id="casos" className="py-16 bg-primary-strong">
+      <section id="casos" className="py-16 bg-tertiary-strong">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl md:text-4xl font-bold">Resultados</h2>
           <div className="grid md:grid-cols-3 gap-6 mt-8">
