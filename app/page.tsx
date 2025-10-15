@@ -120,20 +120,22 @@ export default function Page() {
         </div>
       </section>
       */}
+
       {/* CONTACTO */}
-      <section id="contacto" className="py-16 relative bg-fondo3">
+      <section id="contacto" className="py-16 bg-ink-strong">
         <div className="container mx-auto px-4 relative z-10 grid md:grid-cols-2 gap-10 items-start">
           <div>
             <h2 className="text-3xl md:text-4xl font-bold">Contacto</h2>
-            <p className="mt-4 text-lg text-slate-800">
-              Conecta tu negocio
-              al futuro.
+            <p className="mt-6 text-4xl font-extrabold text-slate-900 leading-snug">
+              Conecta tu negocio<br />al futuro.
             </p>
-            <ul className="mt-6 text-slate-700 space-y-2 text-sm">
-              <li>• Diagnóstico rápido y recomendaciones accionables</li>
-              <li>• Integración con tu stack y automatización con IA</li>
-              <li>• Acompañamiento como partner, no proveedor puntual</li>
-            </ul>
+            {/*
+      <ul className="mt-6 text-slate-700 space-y-2 text-sm">
+        <li>• Diagnóstico rápido y recomendaciones accionables</li>
+        <li>• Integración con tu stack y automatización con IA</li>
+        <li>• Acompañamiento como partner, no proveedor puntual</li>
+      </ul>
+      */}
           </div>
 
           <form
@@ -148,22 +150,39 @@ export default function Page() {
 
             <label className="flex flex-col gap-2">
               <span className="text-sm text-slate-600">Nombre</span>
-              <input name="nombre" required className="bg-white border border-slate-200 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-300" />
+              <input
+                name="nombre"
+                required
+                className="bg-white border border-slate-200 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-300"
+              />
             </label>
 
             <label className="flex flex-col gap-2">
               <span className="text-sm text-slate-600">Empresa</span>
-              <input name="empresa" className="bg-white border border-slate-200 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-300" />
+              <input
+                name="empresa"
+                className="bg-white border border-slate-200 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-300"
+              />
             </label>
 
             <label className="flex flex-col gap-2">
               <span className="text-sm text-slate-600">Email</span>
-              <input type="email" name="email" required className="bg-white border border-slate-200 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-300" />
+              <input
+                type="email"
+                name="email"
+                required
+                className="bg-white border border-slate-200 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-300"
+              />
             </label>
 
             <label className="flex flex-col gap-2">
               <span className="text-sm text-slate-600">Mensaje</span>
-              <textarea name="mensaje" rows={5} required className="bg-white border border-slate-200 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-300"></textarea>
+              <textarea
+                name="mensaje"
+                rows={5}
+                required
+                className="bg-white border border-slate-200 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-300"
+              ></textarea>
             </label>
 
             <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-3 text-sm text-slate-600">
