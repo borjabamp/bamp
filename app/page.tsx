@@ -123,97 +123,93 @@ export default function Page() {
 
       {/* CONTACTO */}
       <section id="contacto" className="py-16 bg-ink-strong">
-        <div className="container mx-auto px-4 relative z-10 grid md:grid-cols-2 gap-10 items-start">
-          <div>
-            <h2 className="text-3xl md:text-4xl font-bold">Contacto</h2>
-            <p className="mt-6 text-4xl font-extrabold text-slate-900 leading-snug">
-              Conecta tu negocio<br />al futuro.
-            </p>
-            {/*
-      <ul className="mt-6 text-slate-700 space-y-2 text-sm">
-        <li>• Diagnóstico rápido y recomendaciones accionables</li>
-        <li>• Integración con tu stack y automatización con IA</li>
-        <li>• Acompañamiento como partner, no proveedor puntual</li>
-      </ul>
-      */}
-          </div>
-
-          <form
-            className="card p-6 grid gap-4"
-            action="https://formsubmit.co/info@bamp.es"
-            method="post"
+        <div className="flex flex-col justify-center h-full">
+          <p
+            className="text-7xl md:text-8xl font-extrabold text-transparent bg-clip-text leading-tight text-center"
+            style={{
+              backgroundImage: "linear-gradient(90deg, #ffffff 0%, #c9c1e3 100%)",
+            }}
           >
-            <input type="hidden" name="_subject" value="BAMP · Nueva consulta" />
-            <input type="hidden" name="_next" value="https://bamp.es/gracias" />
-            <input type="hidden" name="_captcha" value="false" />
-            <input type="text" name="_honey" className="hidden" tabIndex={-1} autoComplete="off" />
+            Conecta tu negocio<br />al futuro.
+          </p>
+        </div>
 
-            <label className="flex flex-col gap-2">
-              <span className="text-sm text-slate-600">Nombre</span>
-              <input
-                name="nombre"
-                required
-                className="bg-white border border-slate-200 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-300"
-              />
-            </label>
+        <form
+          className="card p-6 grid gap-4"
+          action="https://formsubmit.co/info@bamp.es"
+          method="post"
+        >
+          <input type="hidden" name="_subject" value="BAMP · Nueva consulta" />
+          <input type="hidden" name="_next" value="https://bamp.es/gracias" />
+          <input type="hidden" name="_captcha" value="false" />
+          <input type="text" name="_honey" className="hidden" tabIndex={-1} autoComplete="off" />
 
-            <label className="flex flex-col gap-2">
-              <span className="text-sm text-slate-600">Empresa</span>
-              <input
-                name="empresa"
-                className="bg-white border border-slate-200 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-300"
-              />
-            </label>
+          <label className="flex flex-col gap-2">
+            <span className="text-sm text-slate-600">Nombre</span>
+            <input
+              name="nombre"
+              required
+              className="bg-white border border-slate-200 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-300"
+            />
+          </label>
 
-            <label className="flex flex-col gap-2">
-              <span className="text-sm text-slate-600">Email</span>
-              <input
-                type="email"
-                name="email"
-                required
-                className="bg-white border border-slate-200 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-300"
-              />
-            </label>
+          <label className="flex flex-col gap-2">
+            <span className="text-sm text-slate-600">Empresa</span>
+            <input
+              name="empresa"
+              className="bg-white border border-slate-200 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-300"
+            />
+          </label>
 
-            <label className="flex flex-col gap-2">
-              <span className="text-sm text-slate-600">Mensaje</span>
-              <textarea
-                name="mensaje"
-                rows={5}
-                required
-                className="bg-white border border-slate-200 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-300"
-              ></textarea>
-            </label>
+          <label className="flex flex-col gap-2">
+            <span className="text-sm text-slate-600">Email</span>
+            <input
+              type="email"
+              name="email"
+              required
+              className="bg-white border border-slate-200 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-300"
+            />
+          </label>
 
-            <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-3 text-sm text-slate-600">
-              <div>
-                O escribe a <a className="link" href="mailto:info@bamp.es">info@bamp.es</a>
-              </div>
-              <button className="pill px-5 py-2 btn-primary font-semibold" type="submit">Enviar</button>
+          <label className="flex flex-col gap-2">
+            <span className="text-sm text-slate-600">Mensaje</span>
+            <textarea
+              name="mensaje"
+              rows={5}
+              required
+              className="bg-white border border-slate-200 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-300"
+            ></textarea>
+          </label>
+
+          <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-3 text-sm text-slate-600">
+            <div>
+              O escribe a <a className="link" href="mailto:info@bamp.es">info@bamp.es</a>
             </div>
-
-            <p className="text-xs text-slate-500 mt-2">
-              Al completar este formulario, aceptas que estás de acuerdo con la
-              <a className="link ml-1" href="/politica-confidencialidad">Política de confidencialidad</a> de BAMP.
-            </p>
-          </form>
-        </div>
-      </section>
-
-      {/* FOOTER */}
-      <footer className="py-10 border-t border-slate-200 bg-white">
-        <div className="container mx-auto px-4 flex flex-col md:flex-row items-center justify-between gap-3 text-slate-600 text-sm">
-          <div className="flex items-center gap-2">
-            <img src="/logos/bamp-full.png" alt="BAMP Digital Partners" className="h-10 md:h-12" />
+            <button className="pill px-5 py-2 btn-primary font-semibold" type="submit">Enviar</button>
           </div>
-          <div className="flex gap-4">
-            <a href="#top" className="hover:text-[var(--primary)]">Inicio</a>
-            <a href="#servicios" className="hover:text-[var(--primary)]">Qué hacemos</a>
-            <a href="#contacto" className="hover:text-[var(--primary)]">Contacto</a>
-          </div>
-          <div>© {new Date().getFullYear()} · Todos los derechos reservados</div>
-        </div>
-      </footer>
-    </main>
+
+          <p className="text-xs text-slate-500 mt-2">
+            Al completar este formulario, aceptas que estás de acuerdo con la
+            <a className="link ml-1" href="/politica-confidencialidad">Política de confidencialidad</a> de BAMP.
+          </p>
+        </form>
+      </div>
+    </section>
+
+      {/* FOOTER */ }
+  <footer className="py-10 border-t border-slate-200 bg-white">
+    <div className="container mx-auto px-4 flex flex-col md:flex-row items-center justify-between gap-3 text-slate-600 text-sm">
+      <div className="flex items-center gap-2">
+        <img src="/logos/bamp-full.png" alt="BAMP Digital Partners" className="h-10 md:h-12" />
+      </div>
+      <div className="flex gap-4">
+        <a href="#top" className="hover:text-[var(--primary)]">Inicio</a>
+        <a href="#servicios" className="hover:text-[var(--primary)]">Qué hacemos</a>
+        <a href="#contacto" className="hover:text-[var(--primary)]">Contacto</a>
+      </div>
+      <div>© {new Date().getFullYear()} · Todos los derechos reservados</div>
+    </div>
+  </footer>
+    </main >
   );
 }
