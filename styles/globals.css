@@ -46,7 +46,7 @@ background:radial-gradient(600px 300px at 20% 20%, var(--primary), transparent 6
 /* Fondos intensos de marca */
 .bg-primary-strong {background: linear-gradient(180deg, #ffffff 0%, #1e40af 100%);color:#fff;}
 .bg-secundary-strong {background: linear-gradient(180deg, #1e40af 0%, #1e40af 100%);color:#fff;}
-.bg-tertiary-strong {background: linear-gradient(180deg, #1e40af 0%, #5529f4 100%);color:#fff;}
+.bg-tertiary-strong {background: linear-gradient(180deg, #1e40af 0%, #120541 100%);color:#fff;}
 .bg-accent-strong  {background: linear-gradient(180deg, #8b5cf6 0%, #6d28d9 100%);color:#fff;}
 .bg-ink-strong     {background: linear-gradient(180deg, #111827 0%, #1f2937 100%);color:#fff;}
 

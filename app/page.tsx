@@ -82,6 +82,7 @@ export default function Page() {
       </section>
 
       {/* CASOS */}
+      {/*
       <section id="casos" className="py-16 bg-tertiary-strong">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl md:text-4xl font-bold">Resultados</h2>
@@ -101,8 +102,10 @@ export default function Page() {
           </div>
         </div>
       </section>
+       */}
 
       {/* CTA */}
+      {/*
       <section className="relative bg-fondo3">
         <div className="container mx-auto px-4">
           <div className="rounded-2xl p-8 md:p-10 border border-slate-200 bg-gradient-to-r from-white to-[#fafafe]">
@@ -116,7 +119,7 @@ export default function Page() {
           </div>
         </div>
       </section>
-
+      */}
       {/* CONTACTO */}
       <section id="contacto" className="py-16 relative bg-fondo3">
         <div className="container mx-auto px-4 relative z-10 grid md:grid-cols-2 gap-10 items-start">
@@ -124,7 +127,7 @@ export default function Page() {
             <h2 className="text-3xl md:text-4xl font-bold">Contacto</h2>
             <p className="mt-4 text-lg text-slate-800">
               Conecta tu negocio
-                  al futuro.
+              al futuro.
             </p>
             <ul className="mt-6 text-slate-700 space-y-2 text-sm">
               <li>• Diagnóstico rápido y recomendaciones accionables</li>
