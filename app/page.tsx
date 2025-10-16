@@ -283,7 +283,7 @@ export default function Page() {
       </section>
 
       {/* CONTACTO */}
-      <section id="contacto" className="py-16 bg-ink-strong">
+      <section id="contacto" className="py-16 bg-fondo1">
         <div className="container mx-auto px-4 grid md:grid-cols-2 gap-10 items-center min-h-[70vh]">
           {/* Texto grande a la izquierda */}
           <div className="flex items-center">
@@ -294,7 +294,7 @@ export default function Page() {
 
           {/* Formulario a la derecha */}
           <form
-            className="card p-6 grid gap-4 bg-white"
+            className="card p-6 grid gap-4 bg-transparent"
             action="https://formsubmit.co/info@bamp.es"
             method="post"
           >
