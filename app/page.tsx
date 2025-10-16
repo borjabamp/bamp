@@ -283,8 +283,9 @@ export default function Page() {
       </section>
 
       {/* CONTACTO */}
-      <section id="contacto" className="py-16 bg-fondo1">
+      <section id="contacto" className="py-16 bg-fondo2">
         <div className="container mx-auto px-4 grid md:grid-cols-2 gap-10 items-center min-h-[70vh]">
+
           {/* Texto grande a la izquierda */}
           <div className="flex items-center">
             <p className="text-5xl md:text-6xl font-extrabold text-white leading-tight text-center w-full">
@@ -294,7 +295,7 @@ export default function Page() {
 
           {/* Formulario a la derecha */}
           <form
-            className="card p-6 grid gap-4 bg-transparent"
+            className="p-6 grid gap-4 bg-transparent"
             action="https://formsubmit.co/info@bamp.es"
             method="post"
           >
@@ -304,52 +305,52 @@ export default function Page() {
             <input type="text" name="_honey" className="hidden" tabIndex={-1} autoComplete="off" />
 
             <label className="flex flex-col gap-2">
-              <span className="text-sm text-slate-600">Nombre</span>
+              <span className="text-sm text-white">Nombre</span>
               <input
                 name="nombre"
                 required
-                className="bg-white border border-slate-200 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-300"
+                className="bg-white/20 border border-white/30 text-white placeholder-white/70 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-300"
               />
             </label>
 
             <label className="flex flex-col gap-2">
-              <span className="text-sm text-slate-600">Empresa</span>
+              <span className="text-sm text-white">Empresa</span>
               <input
                 name="empresa"
-                className="bg-white border border-slate-200 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-300"
+                className="bg-white/20 border border-white/30 text-white placeholder-white/70 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-300"
               />
             </label>
 
             <label className="flex flex-col gap-2">
-              <span className="text-sm text-slate-600">Email</span>
+              <span className="text-sm text-white">Email</span>
               <input
                 type="email"
                 name="email"
                 required
-                className="bg-white border border-slate-200 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-300"
+                className="bg-white/20 border border-white/30 text-white placeholder-white/70 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-300"
               />
             </label>
 
             <label className="flex flex-col gap-2">
-              <span className="text-sm text-slate-600">Mensaje</span>
+              <span className="text-sm text-white">Mensaje</span>
               <textarea
                 name="mensaje"
                 rows={5}
                 required
-                className="bg-white border border-slate-200 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-300"
+                className="bg-white/20 border border-white/30 text-white placeholder-white/70 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-300"
               ></textarea>
             </label>
 
-            <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-3 text-sm text-slate-600">
+            <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-3 text-sm text-white">
               <div>
-                O escribe a <a className="link" href="mailto:info@bamp.es">info@bamp.es</a>
+                O escribe a <a className="link text-white underline" href="mailto:info@bamp.es">info@bamp.es</a>
               </div>
               <button className="pill px-5 py-2 btn-primary font-semibold" type="submit">Enviar</button>
             </div>
 
-            <p className="text-xs text-slate-500 mt-2">
+            <p className="text-xs text-white/70 mt-2">
               Al completar este formulario, aceptas que estás de acuerdo con la
-              <a className="link ml-1" href="/politica-confidencialidad">Política de confidencialidad</a> de BAMP.
+              <a className="link ml-1 text-white underline" href="/politica-confidencialidad">Política de confidencialidad</a> de BAMP.
             </p>
           </form>
         </div>
