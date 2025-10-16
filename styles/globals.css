@@ -28,22 +28,33 @@ background:radial-gradient(600px 300px at 20% 20%, var(--primary), transparent 6
 }
 .hero-content{position:relative;z-index:1}
 
-/* Fondos por sección reutilizables */
-.bg-fondo1,.bg-fondo2,.bg-fondo3,.bg-fondobrain,.bg-fondoandroide{position:relative}
-.bg-fondo1::before,
-.bg-fondo2::before,
-.bg-fondo3::before,
-.bg-fondobrain::before,
-.bg-fondoandroide::before{
-  content:"";position:absolute;inset:0;z-index:0;
-  background-size:cover;background-position:center;background-repeat:no-repeat;
-  opacity:.9;filter:blur(.5px);
+@layer utilities {
+  .bg-fondo1, .bg-fondo2, .bg-fondo3, .bg-fondobrain, .bg-fondoandroide {
+    position: relative;
+  }
+  .bg-fondo1::before,
+  .bg-fondo2::before,
+  .bg-fondo3::before,
+  .bg-fondobrain::before,
+  .bg-fondoandroide::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+    pointer-events: none;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 1;           /* fuerza visibilidad para probar */
+    filter: none;         /* sin blur para probar */
+  }
+  .bg-fondo1::before{ background-image:url('/backgrounds/mi-fondo1.jpg') }
+  .bg-fondo2::before{ background-image:url('/backgrounds/mi-fondo2.jpg') }
+  .bg-fondo3::before{ background-image:url('/backgrounds/mi-fondo3.jpg') }
+  .bg-fondobrain::before{ background-image:url('/backgrounds/mi-fondobrain.jpg') }
+  .bg-fondoandroide::before{ background-image:url('/backgrounds/mi-fondoandroide.jpg') }
 }
-.bg-fondo1::before{background-image:url('/backgrounds/mi-fondo1.jpg')}
-.bg-fondo2::before{background-image:url('/backgrounds/mi-fondo2.jpg')}
-.bg-fondo3::before{background-image:url('/backgrounds/mi-fondo3.jpg')}
-.bg-fondobrain::before{background-image:url('/backgrounds/mi-fondobrain.jpg')}
-.bg-fondoandroide::before{background-image:url('/backgrounds/mi-fondoandroide.jpg')}
+
 
 /* Fondos intensos de marca */
 .bg-primary-strong {background: linear-gradient(180deg, #ffffff 0%, #1e40af 100%);color:#fff;}
