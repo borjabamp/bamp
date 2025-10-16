@@ -283,19 +283,19 @@ export default function Page() {
       </section>
 
       {/* CONTACTO */}
-      <section id="contacto" className="py-16 bg-fondo2">
-        <div className="container mx-auto px-4 grid md:grid-cols-2 gap-10 items-center min-h-[70vh]">
+      <section id="contacto" className="relative py-16 bg-fondo2 overflow-hidden">
+        <div className="relative z-10 container mx-auto px-4 grid md:grid-cols-2 gap-10 items-center min-h-[70vh]">
 
           {/* Texto grande a la izquierda */}
           <div className="flex items-center">
-            <p className="text-5xl md:text-6xl font-extrabold text-white leading-tight text-center w-full">
+            <p className="text-5xl md:text-6xl font-extrabold text-white leading-tight text-center w-full drop-shadow-lg">
               Conecta tu negocio<br />al futuro
             </p>
           </div>
 
           {/* Formulario a la derecha */}
           <form
-            className="p-6 grid gap-4 bg-transparent"
+            className="p-6 grid gap-4 bg-transparent relative z-10"
             action="https://formsubmit.co/info@bamp.es"
             method="post"
           >
@@ -343,7 +343,7 @@ export default function Page() {
 
             <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-3 text-sm text-white">
               <div>
-                O escribe a <a className="link text-white underline" href="mailto:info@bamp.es">info@bamp.es</a>
+                O escribe a <a className="underline" href="mailto:info@bamp.es">info@bamp.es</a>
               </div>
               <button className="pill px-5 py-2 btn-primary font-semibold" type="submit">Enviar</button>
             </div>
