@@ -288,7 +288,7 @@ export default function Page() {
 
           {/* Texto grande a la izquierda */}
           <div className="flex items-center">
-            <p className="text-5xl md:text-6xl font-extrabold text-blue leading-tight text-center w-full drop-shadow-lg">
+            <p className="text-5xl md:text-6xl font-extrabold text-slate-900 leading-tight text-center w-full drop-shadow-lg">
               Conecta tu negocio<br />al futuro
             </p>
           </div>
@@ -305,52 +305,52 @@ export default function Page() {
             <input type="text" name="_honey" className="hidden" tabIndex={-1} autoComplete="off" />
 
             <label className="flex flex-col gap-2">
-              <span className="text-sm text-white">Nombre</span>
+              <span className="text-sm text-slate-900">Nombre</span>
               <input
                 name="nombre"
                 required
-                className="bg-white/20 border border-white/30 text-white placeholder-white/70 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-300"
+                className="bg-white/20 border border-white/80 text-slate-900 placeholder-white/70 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-300"
               />
             </label>
 
             <label className="flex flex-col gap-2">
-              <span className="text-sm text-white">Empresa</span>
+              <span className="text-sm text-slate-900">Empresa</span>
               <input
                 name="empresa"
-                className="bg-white/20 border border-white/30 text-white placeholder-white/70 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-300"
+                className="bg-white/20 border border-white/80 text-slate-900 placeholder-white/70 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-300"
               />
             </label>
 
             <label className="flex flex-col gap-2">
-              <span className="text-sm text-white">Email</span>
+              <span className="text-sm text-slate-900">Email</span>
               <input
                 type="email"
                 name="email"
                 required
-                className="bg-white/20 border border-white/30 text-white placeholder-white/70 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-300"
+                className="bg-white/20 border border-white/80 text-slate-900 placeholder-white/70 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-300"
               />
             </label>
 
             <label className="flex flex-col gap-2">
-              <span className="text-sm text-white">Mensaje</span>
+              <span className="text-sm text-slate-900">Mensaje</span>
               <textarea
                 name="mensaje"
                 rows={5}
                 required
-                className="bg-white/20 border border-white/30 text-white placeholder-white/70 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-300"
+                className="bg-white/20 border border-white/30 text-slate-900 placeholder-white/70 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-300"
               ></textarea>
             </label>
 
-            <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-3 text-sm text-white">
+            <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-3 text-sm text-slate-900">
               <div>
                 O escribe a <a className="underline" href="mailto:info@bamp.es">info@bamp.es</a>
               </div>
               <button className="pill px-5 py-2 btn-primary font-semibold" type="submit">Enviar</button>
             </div>
 
-            <p className="text-xs text-white/70 mt-2">
+            <p className="text-xs text-slate-900/70 mt-2">
               Al completar este formulario, aceptas que estás de acuerdo con la
-              <a className="link ml-1 text-white underline" href="/politica-confidencialidad">Política de confidencialidad</a> de BAMP.
+              <a className="link ml-1 text-slate-900 underline" href="/politica-confidencialidad">Política de confidencialidad</a> de BAMP.
             </p>
           </form>
         </div>
