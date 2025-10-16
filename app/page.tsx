@@ -64,8 +64,8 @@ export default function Page() {
       </section>
 
       {/* QUÉ HACEMOS */}
-      <section id="servicios" className="py-20 bg-white">
-        <div className="container mx-auto px-4 min-h-screen">
+      <section id="servicios" className="py-12 bg-white">
+        <div className="container mx-auto px-4">
           <h2 className="text-center text-3xl md:text-4xl font-extrabold">
             De la oportunidad al impacto medido
           </h2>
@@ -139,7 +139,7 @@ export default function Page() {
               href="/servicios"
               className="inline-flex items-center gap-2 px-4 py-2 rounded-xl border border-slate-200 bg-accent-strong hover:shadow-md transition"
             >
-              BAMP para tu negocio, todo lo que podemos hacer
+              BAMP para tu negocio, todo lo que necesitas
             </a>
           </div>
         </div>
