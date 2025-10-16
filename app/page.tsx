@@ -309,7 +309,7 @@ export default function Page() {
               <input
                 name="nombre"
                 required
-                className="bg-[#47d5fc]/80 border border-[#47d5fc]/80 text-slate-900 placeholder-white/70 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-300"
+                className="bg-white/100 border border-white/80 text-slate-900 placeholder-white/70 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-300"
               />
             </label>
 
@@ -317,7 +317,7 @@ export default function Page() {
               <span className="text-sm text-slate-900">Empresa</span>
               <input
                 name="empresa"
-                className="bg-[#8f999c]/80 border border-[#8f999c]/80 text-slate-900 placeholder-white/70 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-300"
+                className="bg-white/100 border border-white/80 text-slate-900 placeholder-white/70 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-300"
               />
             </label>
 
