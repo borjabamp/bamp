@@ -134,14 +134,14 @@ export default function Page() {
               </div>
             </a>
           </div>
-        </div>
-        <div className="mt-6">
-          <a
-            href="/servicios"
-            className="justify-center inline-flex items-center gap-2 px-4 py-2 rounded-xl border border-slate-200 bg-accent-strong hover:shadow-md transition"
-          >
-            BAMP para tu negocio, todo lo que podemos hacer 
-          </a>
+          <div className="mt-6 justify-center">
+            <a
+              href="/servicios"
+              className="inline-flex items-center gap-2 px-4 py-2 rounded-xl border border-slate-200 bg-accent-strong hover:shadow-md transition"
+            >
+              BAMP para tu negocio, todo lo que podemos hacer
+            </a>
+          </div>
         </div>
       </section>
 
