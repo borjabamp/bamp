@@ -283,7 +283,7 @@ export default function Page() {
       </section>
 
       {/* CONTACTO */}
-      <section id="contacto" className="relative py-16 bg-fondo2 overflow-hidden">
+      <section id="contacto" className="relative py-16 bg-fondoandroide overflow-hidden">
         <div className="relative z-10 container mx-auto px-4 grid md:grid-cols-2 gap-10 items-center min-h-[70vh]">
 
           {/* Texto grande a la izquierda */}
