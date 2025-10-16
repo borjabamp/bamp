@@ -309,7 +309,7 @@ export default function Page() {
               <input
                 name="nombre"
                 required
-                className="bg-white/100 border border-white/80 text-slate-900 placeholder-white/70 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-300"
+                className="bg-white/100 border border-blue/80 text-slate-900 placeholder-white/70 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-300"
               />
             </label>
 
@@ -317,7 +317,7 @@ export default function Page() {
               <span className="text-sm text-slate-900">Empresa</span>
               <input
                 name="empresa"
-                className="bg-white/100 border border-white/80 text-slate-900 placeholder-white/70 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-300"
+                className="bg-white/100 border border-blue/80 text-slate-900 placeholder-white/70 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-300"
               />
             </label>
 
@@ -327,7 +327,7 @@ export default function Page() {
                 type="email"
                 name="email"
                 required
-                className="bg-white/100 border border-white/80 text-slate-900 placeholder-white/70 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-300"
+                className="bg-white/100 border border-blue/80 text-slate-900 placeholder-white/70 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-300"
               />
             </label>
 
@@ -337,7 +337,7 @@ export default function Page() {
                 name="mensaje"
                 rows={5}
                 required
-                className="bg-white/100 border border-white/30 text-slate-900 placeholder-white/70 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-300"
+                className="bg-white/100 border border-blue/30 text-slate-900 placeholder-white/70 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-300"
               ></textarea>
             </label>
 
