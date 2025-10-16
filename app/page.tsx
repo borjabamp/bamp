@@ -288,7 +288,7 @@ export default function Page() {
 
           {/* Texto grande a la izquierda */}
           <div className="flex items-center">
-            <p className="text-5xl md:text-6xl font-extrabold text-white leading-tight text-center w-full drop-shadow-lg">
+            <p className="text-5xl md:text-6xl font-extrabold text-blue leading-tight text-center w-full drop-shadow-lg">
               Conecta tu negocio<br />al futuro
             </p>
           </div>
