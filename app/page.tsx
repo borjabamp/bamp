@@ -134,7 +134,7 @@ export default function Page() {
               </div>
             </a>
           </div>
-          <div className="mt-6 justify-center">
+          <div className="mt-10 flex justify-center">
             <a
               href="/servicios"
               className="inline-flex items-center gap-2 px-4 py-2 rounded-xl border border-slate-200 bg-accent-strong hover:shadow-md transition"
