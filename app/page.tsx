@@ -81,7 +81,7 @@ export default function Page() {
           {/* Derecha: logo + textos */}
           <div className="text-center md:text-left">
             <img src="/logos/bamp-icon.png" alt="BAMP Enterprise AI" className="w-16 h-16 mx-auto md:mx-0 mb-4" />
-            <h2 className="text-4xl md:text-6xl font-extrabold leading-tight">
+            <h2 className="text-4xl md:text-4xl font-extrabold leading-tight">
               <span
                 className="text-transparent bg-clip-text"
                 style={{ backgroundImage: "linear-gradient(90deg,var(--primary),var(--accent))" }}
