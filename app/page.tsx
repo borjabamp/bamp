@@ -63,6 +63,31 @@ export default function Page() {
         </div>
       </section>
 
+      {/* SECCIÓN PRESENTACIÓN AI */}
+      <section className="py-12 bg-white">
+        <div className="container mx-auto px-4 grid md:grid-cols-2 gap-10 items-center">
+          {/* Izquierda: vídeo MP4 */}
+          <div className="flex justify-center">
+            <video
+              src="/backgrounds/ai-clip.mp4"
+              className="max-w-sm rounded-xl shadow-lg"
+              autoPlay
+              loop
+              muted
+              playsInline
+            />
+          </div>
+
+          {/* Derecha: logo + textos */}
+          <div className="text-center md:text-left">
+            <img src="/logos/bamp-icon.png" alt="BAMP Enterprise AI" className="w-16 h-16 mx-auto md:mx-0 mb-4" />
+            <h2 className="text-2xl font-extrabold text-slate-900">BAMP Enterprise AI</h2>
+            <p className="text-lg text-slate-600 mt-2">Tu sueña y pide</p>
+            <p className="text-lg text-slate-600">Nosotros lo hacemos y mejoramos con AI</p>
+          </div>
+        </div>
+      </section>
+
       {/* QUÉ HACEMOS */}
       <section id="servicios" className="py-12 bg-white">
         <div className="container mx-auto px-4">
