@@ -45,9 +45,9 @@ export default function Page() {
               <span className="text-slate-500 text-sm">Estrategia · Tecnología · IA</span>
             </div>
             <h1 className="text-4xl md:text-6xl font-extrabold leading-tight">
-              Estrategia Humana.{" "}
+              Estrategia Humana{" "}
               <span className="text-transparent bg-clip-text" style={{ backgroundImage: "linear-gradient(90deg,var(--primary),var(--accent))" }}>
-                Ejecución inteligente.
+                Ejecución inteligente
               </span>
             </h1>
             {/*
@@ -81,7 +81,14 @@ export default function Page() {
           {/* Derecha: logo + textos */}
           <div className="text-center md:text-left">
             <img src="/logos/bamp-icon.png" alt="BAMP Enterprise AI" className="w-16 h-16 mx-auto md:mx-0 mb-4" />
-            <h2 className="text-transparent bg-clip-text" style={{ backgroundImage: "linear-gradient(90deg,var(--primary),var(--accent))" }}>BAMP Enterprise AI</h2>
+            <h2 className="text-4xl md:text-6xl font-extrabold leading-tight">
+              <span
+                className="text-transparent bg-clip-text"
+                style={{ backgroundImage: "linear-gradient(90deg,var(--primary),var(--accent))" }}
+              >
+                BAMP Enterprise AI
+              </span>
+            </h2>
             <p className="text-lg text-slate-600 mt-2">Tu sueña y pide</p>
             <p className="text-lg text-slate-600">Nosotros lo hacemos y mejoramos con AI</p>
           </div>
