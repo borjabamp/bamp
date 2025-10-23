@@ -145,20 +145,6 @@ export default function Page() {
         </div>
       </section>
 
-      {/* STACK */}
-      <section className="py-16 bg-secundary-strong">
-        <div className="container mx-auto px-4">
-          <h2 className="text-3xl md:text-4xl font-bold">Stack y herramientas</h2>
-          <p className="mt-2 text-white/80 max-w-2xl">Trabajamos con lo que ya usas y aportamos piezas nuevas si aporta ROI.</p>
-          <div className="grid md:grid-cols-4 gap-4 mt-8 text-sm">
-            <div className="card bg-white/5 border-white/10 p-4">GA4 · GTM · Looker Studio</div>
-            <div className="card bg-white/5 border-white/10 p-4">Meta · Google Ads · SEO</div>
-            <div className="card bg-white/5 border-white/10 p-4">Zapier · Make · n8n</div>
-            <div className="card bg-white/5 border-white/10 p-4">APIs · Webhooks · Next.js</div>
-          </div>
-        </div>
-      </section>
-
       {/* METODO */}
       <section id="metodo" className="py-16 bg-secundary-strong">
         <div className="container mx-auto px-4">
@@ -180,6 +166,20 @@ export default function Page() {
               <h3 className="font-semibold text-lg mb-2">Escalado</h3>
               <p className="text-slate-700">Optimización continua, governance y transferencia de conocimiento.</p>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* STACK */}
+      <section className="py-16 bg-secundary-strong">
+        <div className="container mx-auto px-4">
+          <h2 className="text-3xl md:text-4xl font-bold">Stack y herramientas</h2>
+          <p className="mt-2 text-white/80 max-w-2xl">Trabajamos con lo que ya usas y aportamos piezas nuevas si aporta ROI.</p>
+          <div className="grid md:grid-cols-4 gap-4 mt-8 text-sm">
+            <div className="card bg-white/5 border-white/10 p-4">GA4 · GTM · Looker Studio</div>
+            <div className="card bg-white/5 border-white/10 p-4">Meta · Google Ads · SEO</div>
+            <div className="card bg-white/5 border-white/10 p-4">Zapier · Make · n8n</div>
+            <div className="card bg-white/5 border-white/10 p-4">APIs · Webhooks · Next.js</div>
           </div>
         </div>
       </section>
